@@ -1,0 +1,1 @@
+{"name":"eva-yu-workbench-static","private":true,"type":"module","scripts":{"build":"esbuild src/main.tsx --bundle --minify --legal-comments=linked --outfile=workbench.js --jsx=automatic"},"dependencies":{"lucide-react":"1.31.0","react":"19.2.6","react-dom":"19.2.6"},"devDependencies":{"esbuild":"0.27.7"}}
