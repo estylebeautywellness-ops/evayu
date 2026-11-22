@@ -17,9 +17,10 @@ function Profile(){
  return <div className="profile-page">
   <div className="eyebrow"><span className="eyebrow-line"/> OFFICIAL PROFILE</div>
   <div className="page-heading profile-heading"><div><h1>Eva Yu 个人资料</h1><p>反霸凌公益宣传大使 · Dream Film Marketing Partner</p></div></div>
-<section className="profile-info-grid">
-   <article className="profile-card identity-card"><span className="section-kicker">IDENTITY</span><h2>Eva Yu</h2><div className="identity-tags"><span>反霸凌公益宣传大使</span><span>Marketing Partner</span></div><p>以真实生活故事、校园互动与电影教育推广，推动更多父母、成年人、孩子和老师认识霸凌、勇敢发声并寻求帮助。</p></article>
-
+<section className="profile-info-grid" aria-label="Eva Yu 身份介绍">
+   <div className="profile-banner">
+    <img src="assets/eva-yu-identity.jpg" width={1280} height={853} alt="圆梦影业 Eva Yu 个人宣传图，介绍她的 Marketing Partner 与反霸凌公益宣传大使身份，附联络电话、公司地址与社交媒体资料。"/>
+   </div>
   </section>
   <section className="film-section">
    <div className="film-copy"><span className="section-kicker">ANTI-BULLYING EDUCATION FILM</span><h2>《开错玩笑》</h2><p>反霸凌教育电影，由马来西亚皇家警察与圆梦影业合作推动。透过电影故事，让校园、家庭和社会重新认识玩笑与伤害之间的界限。</p><blockquote>Stand Up. Voice Out.</blockquote><div className="film-meta"><span>Dream Film Team</span><span>www.dreamfilm.com</span></div></div>
